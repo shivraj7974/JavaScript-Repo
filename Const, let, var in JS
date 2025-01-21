@@ -1,0 +1,6 @@
+console.log("haa bhai ")
+const accountId = 34553
+let accountEmail = "shiv@gmail.com"
+var accountAddress = "ujjain"
+
+console.table([accountId, accountEmail, accountAddress])
