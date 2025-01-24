@@ -1,0 +1,32 @@
+const score = 400
+console.log(score);
+
+const balance = new Number(100)
+console.log(balance)
+
+console.log(balance.toString().length);
+console.log(balance.toString().length);
+console.log(balance.toFixed(2));
+
+const otherNum = 123.8978
+console.log(otherNum.toPrecision(3))          // ek price value de dega ......approx .....( 1  & 21 k beech me deni hh )
+
+const Hundreds = 10000
+console.log.apply(Hundreds.toLocaleString('en-IN'))
+
+// =======================maths ==================================
+
+console.log(Math)                            //object [math]
+console.log(Math.abs(-9))                 //9 only negative ko positive krega
+
+console.log(Math.round(4.8))               // round off krr dega  5
+
+console.log(Math.ceil(8.7))                    // agr 8 se thoda bhi jyada to 9 .....ceiling top value
+
+console.log(Math.floor(7.4))                       // 7 aayega floor value of 7.4
+
+console.log(Math.min(4,5,7,2,1,99))
+
+console.log(Math.max(44,33,77,5,32))          //77
+
+console.log(Math.random())               //0.30197157396127805,   random value
