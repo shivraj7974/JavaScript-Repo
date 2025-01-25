@@ -1,0 +1,51 @@
+const Myarr = [3,4,4,5,4,6,7]
+
+console.log(Myarr)
+
+const arr = new Array(33,55,22)
+
+console.log(arr[2]);
+
+//                 ------------------array methodssss
+
+arr.push(34)
+console.log(arr)
+
+arr.pop()
+console.log(arr)
+
+arr.unshift(9)             // 9 sbse aage add ho jayega
+console.log(arr)
+
+arr.shift()                // 9 remove
+console.log(arr)
+
+console.log(arr.includes(8))        // kya 8 hai .......nhi falsee
+
+console.log(arr.indexOf(44))           // agr available nhi to -1 aayegaa
+
+const newArr = arr.join();
+console.log(arr)
+console.log(newArr)               // eska type string ho jayegaa
+
+const another_arr = [2,4,5,6,[6,78,[5,4,3,2[2,45]],7,4]]
+const real_another_arr = another_arr.flat(Infinity)
+console.log(real_another_arr)
+
+
+console.log(Array.isArray("shivraj"))            // mhi h
+
+console.log(Array.from("shivraj"))              //
+'s', 'h', 'i',
+'v', 'r', 'a',//////////// easa output dega  ...convert kr dega array me
+
+
+
+'j'
+
+
+
+let score1 = 938
+let score2 = 485
+let score3 = 485
+console.log(Array.of(score1, score2, score3))
