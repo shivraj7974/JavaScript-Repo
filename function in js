@@ -1,0 +1,56 @@
+const course = {
+    coursename : "javascript",
+    price : "999",
+    instructor : "hitesh"
+}
+
+const {instructor} = course
+console.log(instructor)
+// console.log(inst)
+
+
+
+// --------------------function and parameter -------------------------------------------------------------
+
+function sayMyName(){
+    console.log("S")
+    console.log("H");
+    console.log("I");
+    console.log("V")
+}
+sayMyName()
+
+
+//  func
+
+function addtwonum(n1 , n2){
+    console.log(n1 + n2)
+}
+addtwonum(3,4)
+
+// -------------------------------------------20 ----------------------------------
+
+function calculateCartPrice (...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 300, 400 , 5000))
+
+// [=================]
+
+const user = {
+    username : "shiv",
+    age : 22
+
+}
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and age is ${anyObject.age}`)
+}
+handleObject(user)
+
+// ------------------------------------------------------------------
+const mynewArray = [22,33,44,55]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+//console.log(returnSecondValue(mynewArray));
+console.log(returnSecondValue([2,3,5,6]));
