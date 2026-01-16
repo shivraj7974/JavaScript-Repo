@@ -1,0 +1,22 @@
+
+//hoist declarations to the top not initailization 
+console.log(a)
+greet()
+    function greet(){
+        console.log("its hoisting bro")
+    }
+    var a=9;
+    console.log()
+
+// closures- is a function along with its lexical environment 
+
+function init(){
+    var name = "shiv";
+    function displayName(){
+        console.log(name);
+    }
+    // name='ram'
+    return displayName;
+}
+let c = init();
+c()
