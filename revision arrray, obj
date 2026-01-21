@@ -1,0 +1,133 @@
+// console.log(0 || "Hello");
+// console.log("Hi" && 0);
+// console.log(null || undefined || "JS");
+// console.log(!!"Shivraj");
+
+// let username = "";
+
+// if (username) {
+//   console.log("Username exists");
+// } else {
+//   console.log("Username missing");
+// }
+
+// if (!email || !password) {
+//   alert("All fields required");
+// } else {
+//   loginUser();
+// }
+
+// let role = "admin";
+
+// switch (role) {
+//   case "admin":
+//     console.log("Full Access");
+//     break;
+//   case "user":
+//     console.log("Limited Access");
+//     break;
+//   default:
+//     console.log("No Access");
+// }
+
+// let arr = [2,3,4,5,5]
+// for(let i=0; i<arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// function add(a,b){
+//     console.log(a+b);
+// }
+// add(3,4);
+
+// function sum(...numbers)
+// {
+//     let total = 0 ;
+//     for(let num of numbers)
+//     {
+//         total += num;
+//     }
+//     return total
+// }
+
+// result = sum(1,2,3,4)
+// console.log(result)
+
+
+
+// function greet(callback) {
+//   callback();
+// }
+
+// greet(() => console.log("Hello"));
+
+
+// let arr = ["shiv","raj","singh"]
+
+// console.log(arr.length);
+
+// arr.push("hirawat")
+
+// console.log(arr)
+
+// arr.unshift("shree")
+
+// console.log(arr)
+
+// arr.pop()
+
+// console.log(arr)
+
+// arr.shift();
+
+// console.log(arr)
+
+// arr.includes("shiv")
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1;
+
+// arr2.push(4);
+
+// console.log(arr1); // [1,2,3,4]
+
+
+// let arr=[1,2,3,4,5,6]
+// let part = arr.slice(0,3)
+// console.log(part)
+
+// let arr=[11,22,33,44]
+// let result = arr.splice(0,4);
+// console.log(result)   //[ 11, 22, 33, 44 ]
+
+let numbers = [10, 20, 30, 40];
+
+// 1️⃣ Add 50 at end  
+// 2️⃣ Remove first element  
+// 3️⃣ Print all elements using loop
+
+// numbers.push(50);
+// console.log(numbers)
+
+// numbers.shift(10);
+// console.log(numbers)
+
+// for(let i = 0; i<numbers.length; i++){
+//     console.log("le beta"+numbers[i]);
+// }
+
+const obj = {
+  1: "one",
+  2: "two",
+  3: "three",
+  4: "four",
+  5: "five"
+};
+
+// console.log(obj)
+
+for(let key in obj){
+    console.log(key, obj[key])
+}
+
